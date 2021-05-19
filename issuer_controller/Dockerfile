@@ -6,7 +6,7 @@ WORKDIR $HOME
 
 ADD . .
 
-RUN mkdir /home/indy/config
+RUN mkdir -p /home/indy/config
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
